@@ -1,19 +1,16 @@
-This directory includes a few sample datasets to get you started.
+# Bike Share Dashboard :sparkles:
 
-*   `california_housing_data*.csv` is California housing data from the 1990 US
-    Census; more information is available at:
-    https://developers.google.com/machine-learning/crash-course/california-housing-data-description
+## Deskripsi Proyek
+Proyek ini adalah dashboard interaktif yang menampilkan analisis dan visualisasi data sewa sepeda berdasarkan dataset. Dashboard ini dibuat menggunakan Streamlit dan visualisasi data dilakukan dengan bantuan pustaka pandas, matplotlib, dan seaborn.
 
-*   `mnist_*.csv` is a small sample of the
-    [MNIST database](https://en.wikipedia.org/wiki/MNIST_database), which is
-    described at: http://yann.lecun.com/exdb/mnist/
+## Fitur Utama
+- **Rentang Waktu Seleksi**: Pengguna dapat memilih rentang waktu untuk analisis data.
+- **Visualisasi Musim dan Cuaca**: Menampilkan rata-rata jumlah sewa sepeda berdasarkan musim dan kondisi cuaca.
+- **Visualisasi Suhu dan Suhu Terasa**: Menampilkan rata-rata jumlah sewa sepeda berdasarkan suhu dan suhu terasa.
+- **Korelasi Suhu, Kelembaban, dan Kecepatan Angin**: Menampilkan hubungan antara jumlah sewa sepeda dengan suhu, kelembaban, dan kecepatan angin.
+- **Jumlah Sewa Sepeda Selama Dua Tahun Terakhir**: Menampilkan rata-rata jumlah sewa sepeda per hari dan per bulan serta tren jumlah sewa sepeda tiap bulan dalam dua tahun terakhir.
 
-*   `anscombe.json` contains a copy of
-    [Anscombe's quartet](https://en.wikipedia.org/wiki/Anscombe%27s_quartet); it
-    was originally described in
-
-    Anscombe, F. J. (1973). 'Graphs in Statistical Analysis'. American
-    Statistician. 27 (1): 17-21. JSTOR 2682899.
-
-    and our copy was prepared by the
-    [vega_datasets library](https://github.com/altair-viz/vega_datasets/blob/4f67bdaad10f45e3549984e17e1b3088c731503d/vega_datasets/_data/anscombe.json).
+## Instalasi
+1. Clone repositori ini:
+   ```bash
+   git clone https://github.com/hennyglo/analisis_data
