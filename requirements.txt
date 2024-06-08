@@ -1,2 +1,6 @@
-pandas==2.1.1
-plotly
+numpy
+pandas
+matplotlib
+scipy
+streamlit
+seaborn
