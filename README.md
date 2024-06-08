@@ -18,31 +18,38 @@ Proyek ini adalah dashboard interaktif yang menampilkan analisis dan visualisasi
 
 ## Setup Environment - Anaconda
 1. Buat environment baru dengan Anaconda:
+   ```bash
 conda create --name bike-share-dashboard python=3.9
 conda activate bike-share-dashboard
 
 2. Instal dependensi:
+   ```bash
 pip install -r requirements.txt
 
 ## Setup Environment - Shell/Terminal
 1. Buat direktori proyek dan masuk ke dalamnya:
+   ```bash
 mkdir proyek_analisis_data
 cd proyek_analisis_data
 
 2. Instal pipenv jika belum terinstal:
+   ```bash
 pip install pipenv
 
 3. Instal dependensi dan aktifkan environment:
+   ```bash
 pipenv install
 pipenv shell
 pip install -r requirements.txt
 
 ## Menjalankan Aplikasi
 # Untuk menjalankan aplikasi Streamlit:
+   ```bash
 streamlit run dashboard_bike_sharing.py
 
 ## Dependensi
 # Pastikan Anda memiliki pustaka berikut terinstal dalam environment Anda:
+   ```bash
 numpy==1.24.2
 pandas==2.1.1
 matplotlib==3.7.2
@@ -54,6 +61,7 @@ babel==2.11.0
 warnings==3.11.5
 
 ## Struktur Proyek
+   ```bash
 analisis_data/
 ├── README.md
 ├── requirements.txt
