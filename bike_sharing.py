@@ -16,14 +16,14 @@ current_date = datetime.now().date()
 start_date = datetime(2011, 1, 1).date()
 end_date = datetime(2012, 12, 31).date()
     
-    # Mengambil start_date & end_date dari date_input
-    selected_dates = st.date_input(
-        label='Rentang Waktu',
-        min_value=start_date,
-        max_value=end_date,
-        value=[start_date, end_date]
-    )
-    
+# Mengambil start_date & end_date dari date_input
+selected_dates = st.date_input(
+label='Rentang Waktu',
+min_value=start_date,
+max_value=end_date,
+value=[start_date, end_date]
+)
+  
 st.header('Bike Share Dashboard :sparkles:')
 
 st.markdown('### Jumlah Sewa Sepeda Berdasarkan Musim, Cuaca, Suhu, dan Suhu Terasa')
