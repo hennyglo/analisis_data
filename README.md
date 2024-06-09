@@ -56,6 +56,7 @@ streamlit run dashboard_bike_sharing.py
 
 ## Dependensi
 # Pastikan Anda memiliki pustaka berikut terinstal dalam environment Anda:
+```
 numpy==1.24.2
 pandas==2.1.1
 matplotlib==3.7.2
@@ -65,8 +66,10 @@ scipy==1.10.1
 streamlit==1.23.0
 babel==2.11.0
 warnings==3.11.5
+```
 
 ## Struktur Proyek
+```
 analisis_data/
 ├── README.md
 ├── requirements.txt
@@ -79,3 +82,4 @@ analisis_data/
 │   ├── day.csv
 │   └── readme
 └── env/
+```
