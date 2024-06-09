@@ -1,9 +1,6 @@
-numpy==1.24.2
-pandas==2.1.1
-matplotlib==3.7.2
-seaborn==0.12.2
-plotly==5.7.0
-scipy==1.10.1
-streamlit==1.23.0
-babel==2.11.0
-warnings==3.11.5
+Babel==2.12.1
+matplotlib==3.8.0
+numpy==1.25.2
+pandas==2.1.4
+seaborn==0.13.0
+streamlit==1.26.0
